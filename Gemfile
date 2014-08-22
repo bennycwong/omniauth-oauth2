@@ -1,6 +1,7 @@
 source 'http://rubygems.org'
 
 gem 'rake'
+gem 'oauth2', :git => 'https://github.com/bennycwong/oauth2.git'
 
 group :development do
   platforms :ruby_19, :ruby_20, :ruby_21 do
